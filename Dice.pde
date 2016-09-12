@@ -16,10 +16,10 @@ void draw()
 	total = 0;
 	numClicks++;
 	background(255);
-	for (int x = 10; x < 500; x = x + 62)
-	{ for (int y = 10; y < 500; y = y + 62) 
+	for (int i = 10; i < 500; i += 62)
+	{ for (int j = 10; j < 500; j += 62) 
 		{
-			bob = new Die(x, y);
+			bob = new Die(j, i);
 			bob.roll();
 			bob.show();
 			total = total + bob.value;
