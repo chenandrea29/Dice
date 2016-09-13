@@ -29,7 +29,7 @@ void draw()
 	fill(0, 0, 0, 150);
 	textSize(200);
 	textAlign(CENTER, CENTER);
-	text(total, 250, 225);
+	text(total, 250, 235);
 	fill(0);
 	textSize(15);
 	textAlign(LEFT, TOP);
